@@ -4,11 +4,8 @@ const client = new Discord.Client({
     partials: ['USER', 'CHANNEL', 'GUILD_MEMBER', 'MESSAGE', 'REACTION', 'GUILD_SCHEDULED_EVENT'],
 });
 const config = require("./config/config.json");
-const fs = require('fs');
 const ticket = require("./manager/TicketManger");
-const {addTicket} = require("./manager/TicketManger");
 const {MessageActionRow, MessageButton} = require("discord.js");
-const {toNumber} = require("lodash");
 
 client.on("ready", () => {
     console.log("[]----------------------[]" + "\nTicketBot has been successfully launched!" + "\nDiscord: https://discord.gg/V8q2MT7gbm" + "\nAuthor: Exceptionpilot (EXP-Development)" + "\n[]----------------------[]");
