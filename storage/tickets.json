@@ -1,0 +1,11 @@
+{
+    "ticketId": 1,
+    "tickets": [
+        {
+            "owner": "670923680527810560",
+            "open": true,
+            "transcript": [],
+            "ticketId": 1
+        }
+    ]
+}
