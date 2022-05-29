@@ -2,6 +2,8 @@
   "name": "EXP-TicketBot",
   "version": "1.0.0",
   "dependencies": {
-    
+    "discord-buttons": "^4.0.0-deprecated",
+    "discord.js": "^13.7.0",
+    "lodash": "^4.17.21"
   }
 }

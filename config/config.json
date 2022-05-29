@@ -1,0 +1,85 @@
+{
+  "Token": "ODYwMDQ1NDIwMzU2MDQyNzgy.G91Hmq.MJeJbGNkd-lgXk0wZeTYqrK4-xMe3KqpdUoEFU",
+  "Prefix": ";",
+  "Activity": {
+    "status": "your tickets",
+    "type": "LISTENING",
+    "onlinestatus": "idle"
+  },
+  "category": {
+    "tickets": "980435939857956902"
+  },
+  "roles": {
+    "teamrole": "860045215271485451"
+  },
+  "Messages": {
+    "no-member-remove": "❎ (-) Kein Nutzer ausgewählt! (remove <@Mention>)",
+    "no-member-add": "❎ (-) Kein Nutzer ausgewählt! (add <@Mention>)",
+    "ticket-close": "✅",
+    "ticket-arleadyhas": "❎ (-) Du hast bereits ein geöffnetes Ticket!",
+    "ticket-open": "✅ (-) Du hast erfolgreich ein Ticket geöffnet!",
+    "message-no-perms": "❎ (-) Dazu hast du keine Rechte!"
+  },
+  "ActiveCommands": [
+    "sendticket",
+    "add",
+    "remove"
+  ],
+  "Embeds": {
+    "sendticket": {
+      "color": "#FF0000",
+      "title": "**EXP-TicketBot (-) Support**",
+      "description": "> Du benötigst Hilfe oder möchtest einen Spieler reporten?\n> Dann eröffne ein Ticket un der Support wird sich um dich kümmern!\n\n**Um ein Ticket zu erstellen, klicke auf die Button unter dieser Nachricht**\n",
+      "footer": {
+        "text": "EXP-Development - TicketBot",
+        "icon_url": "https://images-ext-1.discordapp.net/external/6H5VczdJyMmXVLj0aVhP8WKTy8kDubg40K4I9-oAmpM/https/cdn.discordapp.com/avatars/725283728481583204/ba8945b7da21e88b8516b126a2aea674.png"
+      }
+    },
+    "openticket": {
+      "color": "#FF0000",
+      "title": "**EXP-TicketBot (-) Ticket**",
+      "description": "**Willkommen im Ticket**\n\n> Schildere uns dein Anliegen, sodass wir dir schnellstmöglich helfen  können!\n\n**Drücke den Button um dein Ticket zu schließen!**",
+      "footer": {
+        "text": "EXP-Development - TicketBot",
+        "icon_url": "https://images-ext-1.discordapp.net/external/6H5VczdJyMmXVLj0aVhP8WKTy8kDubg40K4I9-oAmpM/https/cdn.discordapp.com/avatars/725283728481583204/ba8945b7da21e88b8516b126a2aea674.png"
+      }
+    },
+    "closed": {
+      "color": "#FF0000",
+      "title": "**EXP-TicketBot (-) Ticket geschlossen**",
+      "description": "**Das Ticket wurde geschlossen!**\n\n> Ticket wird in 10 Sekunden automatisch gelöscht!",
+      "footer": {
+        "text": "EXP-Development - TicketBot",
+        "icon_url": "https://images-ext-1.discordapp.net/external/6H5VczdJyMmXVLj0aVhP8WKTy8kDubg40K4I9-oAmpM/https/cdn.discordapp.com/avatars/725283728481583204/ba8945b7da21e88b8516b126a2aea674.png"
+      }
+    },
+    "add": {
+      "color": "#FF0000",
+      "title": "**EXP-TicketBot (-) Nutzer hinzugefügt**",
+      "description": "Es wurde erfolgreich {0} zum Ticket hinzugefügt!",
+      "footer": {
+        "text": "EXP-Development - TicketBot",
+        "icon_url": "https://images-ext-1.discordapp.net/external/6H5VczdJyMmXVLj0aVhP8WKTy8kDubg40K4I9-oAmpM/https/cdn.discordapp.com/avatars/725283728481583204/ba8945b7da21e88b8516b126a2aea674.png"
+      }
+    },
+    "add": {
+      "color": "#FF0000",
+      "title": "**EXP-TicketBot (-) Nutzer entfernt**",
+      "description": "Es wurde erfolgreich {0} aus dem Ticket entfernt!",
+      "footer": {
+        "text": "EXP-Development - TicketBot",
+        "icon_url": "https://images-ext-1.discordapp.net/external/6H5VczdJyMmXVLj0aVhP8WKTy8kDubg40K4I9-oAmpM/https/cdn.discordapp.com/avatars/725283728481583204/ba8945b7da21e88b8516b126a2aea674.png"
+      }
+    }
+  },
+  "Buttons": {
+    "sendticket": {
+      "text": "Ticket erstellen",
+      "color": "DANGER"
+    },
+    "closeticket": {
+      "text": "Ticket schließen",
+      "color": "DANGER"
+    }
+  }
+}

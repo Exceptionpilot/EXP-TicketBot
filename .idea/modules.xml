@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EXP-TicketBot.iml" filepath="$PROJECT_DIR$/EXP-TicketBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/EXP-TicketBot.iml" filepath="$PROJECT_DIR$/.idea/EXP-TicketBot.iml" />
     </modules>
   </component>
 </project>
