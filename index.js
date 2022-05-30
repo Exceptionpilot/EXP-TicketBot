@@ -77,7 +77,11 @@ client.on("interactionCreate", button => {
                             {
                                 allow: "VIEW_CHANNEL",
                                 id: config.roles.teamrole
-                            }
+                            },
+                            {
+                                deny: 'VIEW_CHANNEL',
+                                id: button.message.guild.id
+                            },
                         ]
                     }).then(ch => {
                         const embed = config.Embeds.openticket;
