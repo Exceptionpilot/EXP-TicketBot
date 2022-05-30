@@ -14,9 +14,6 @@ client.on("ready", () => {
     ticket.reloadStorage();
 })
 
-client.on("stop")
-
-
 client.on("messageCreate", message => {
     if (message.author.bot) return;
     if (message.channel.name.includes("ticket-")) {
