@@ -27,6 +27,7 @@ client.on("messageCreate", message => {
     if (message.content.indexOf(config.Prefix) !== 0) return;
     const args = message.content.slice(config.Prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
+    console.log(command)
     if (config.ActiveCommands.toString().toLowerCase().includes(command)) {
         try {
             let commandFile = require(`./commands/${command}.js`);
@@ -40,7 +41,6 @@ client.on("messageCreate", message => {
 client.on("interactionCreate", button => {
     if (button.isButton()) {
         if (button.customId == "exp_ticket_close") {
-            const user = button.user;
             const ticketid = button.message.channel.name.split("ticket-")[1];
             const ticketClass = ticket.getStorage().tickets.find(t => t.ticketId == ticketid);
             if (ticketClass != null) {

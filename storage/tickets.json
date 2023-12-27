@@ -1,11 +1,4 @@
 {
-    "ticketId": 1,
-    "tickets": [
-        {
-            "owner": "670923680527810560",
-            "open": false,
-            "transcript": [],
-            "ticketId": 1
-        }
-    ]
+    "ticketId": 2,
+    "tickets": []
 }

@@ -2,6 +2,7 @@ const {Permissions, MessageActionRow, MessageButton} = require("discord.js");
 const Discord = require("discord.js");
 const config = require("../config/config.json");
 exports.run = (client, message, args) => {
+    console.log('get command')
     if (message.member.permissions.has(Permissions.FLAGS.ADMINISTRATOR)) {
         message.delete();
         const embed = config.Embeds.sendticket;
